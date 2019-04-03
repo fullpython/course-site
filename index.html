@@ -1,0 +1,325 @@
+<!--
+File: index.html
+
+Main page for FullPython Python course.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <title>Python Dasturlash</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <!-- Begin Favicon -->
+  
+  <meta name="theme-color" content="#ffffff">
+  <!-- End Favicon -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="css/bootswatch/paper.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- HTML5 shim? -->
+</head>
+<body>
+  <ul class="pages">
+    <li class="content page">
+      <div class="container">
+
+        <!-- Page Header -->
+        <div class="page-header">
+          <h1>FullPython <small>hap<span class="text-primary">py</span> code</small></h1>
+          <h3 class="text-muted"><span class="text-primary">python</span> dasturlash tili</h3>
+        </div>
+        <!-- End Page Header -->
+
+       
+
+        <!-- Navigation Tabs -->
+        <nav role="navigation">
+          <ul class="nav nav-tabs nav-justified" role="tablist" id="navigation">
+            <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Asosiy</a></li>
+            <li role="presentation"><a href="#lecture" aria-controls="lecture" role="tab" data-toggle="tab">Leksiya</a></li>
+            <li role="presentation"><a href="#labs" aria-controls="labs" role="tab" data-toggle="tab">Lab</a></li>
+            <li role="presentation"><a href="#assignments" aria-controls="assignments" role="tab" data-toggle="tab">Topshiriqlar</a></li>
+            <li role="presentation"><a href="#resources" aria-controls="resources" role="tab" data-toggle="tab">Resurslar</a></li>
+            <li role="presentation"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Kurs Haqida</a></li>
+          </ul>
+        </nav>
+        <!-- End Navigation Tabs -->
+
+        <!-- Tab Panes -->
+        <div class="tab-content">
+          <!-- Overview Tab -->
+          <div role="tabpanel" class="tab-pane fade in active" id="overview">
+            <div class="row">
+              <!-- Left Column -->
+              <div class="col-md-3">
+                <!-- Announcements -->
+                <h4 class="text-primary">Yangiliklar</h4>
+                <div id="announcements">
+                  <!-- Announcements are inserted here by resources.js -->
+                </div>
+                <!-- End Announcements -->
+              </div>
+              <!-- End Left Column -->
+
+              <!-- Right Column -->
+              <div class="col-md-9 col-ms-12">
+                <h4 class="text-primary">Jadval</h4>
+                <!-- Schedule -->
+                <div class="schedule">
+                  <div class="table-responsive panel panel-default">
+                    <div class="panel-heading">Kurs Kontenti</div>
+                    <table class="table table-striped table-hover table-bordered">
+                      <thead>
+                        <tr>
+                          <th style="width:10%">Mavzu</th>
+                          <th style="width:30%">Dushanba</th>
+                          <th style="width:30%">Chorshanba</th>
+                          <th style="width:30%">Juma</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- Schedules are inserted here by resources.js -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!-- End Schedule -->
+
+              </div>
+              <!-- End Right Column -->
+            </div>
+          </div>
+          <!-- End Overview Tab -->
+
+          <!-- Lecture Tab --> 
+          <div role="tabpanel" class="tab-pane fade" id="lecture">
+            <!-- Lectures -->
+            <div class="lectures">
+              <div class="table-responsive panel panel-default">
+                <div class="panel-heading">Leksiya Materiali</div>
+                <div class="panel-body">
+                  <p class="blurb">Leksiyalar haftada odatda 2 -3 marta  bo'ladi, va deyarli 50 minut darsni qamrab oladi. Har bir leksiya Python dasturlash tilining muayyan bir sohasini o'z ichiga oladi. Leksiyalar ketma ket tazda yaratilgan bo'lib, kurs davomida progressiv o'sishga ur'gu berilgan.</p>
+                  
+                </div>
+                <table class="table table-striped table-hover table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Mavzu</th>
+                      <th>Slayd</th>
+                      <th>Video</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Lectures are inserted here by resources.js -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- End Lectures -->
+          </div>
+          <!-- End Lecture Tab -->
+
+          <!-- Labs Tab -->
+          <div role="tabpanel" class="tab-pane fade" id="labs">
+            <div class="labs">
+              <div class="table-responsive panel panel-default">
+                <div class="panel-heading">Lab!</div>
+                <div class="panel-body">
+                  <p class="blurb">
+                    Ushbu kursdagi Laboratoriyalar(Labs) leksiyada ko'rsatilgan python konsepsiyalarini amalda qo'llash uchun ajoyib imkoniyat.</p>
+                  
+                </div>
+                <table class="table table-striped table-hover table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Hafta</th>
+                      <th>Mavzu</th>
+                      <th>Konspekt(Topshiriq)</th>
+                      <th>Yechimlar</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Labs are inserted here by resources.js -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- End Labs Tab -->
+
+          <!-- Assignments Tab -->
+          <div role="tabpanel" class="tab-pane fade" id="assignments">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="assignments">
+                  <div class="table-responsive panel panel-default">
+                    <div class="panel-heading">Topshiriqlar</div>
+                    <div class="panel-body">
+                      <p>Topshiriqlar, bu siz kursda yangi narsa o'rganganingizni ko'rsatish uchun imkoniyat.</p>
+                    </div>
+                    <table class="table table-striped table-hover table-bordered">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Nomi</th>
+                          <th>Konspekt</th>
+                          <th>Boshlang'ich kod</th>
+                          <th>Shu vaqtdan boshlab</th>
+                          <th>Shu paytgacha (Deadline)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- Assignments are inserted here by resources.js -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Assignments Tab -->
+
+          <!-- Resources Tab -->
+          <div role="tabpanel" class="tab-pane fade" id="resources">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="handouts">
+                  <div class="table-responsive panel panel-default">
+                    <div class="panel-heading">Konspektlar</div>
+                    <div class="panel-body">
+                      <p class="blurb">Bu konspektlar siz bilan birga fikr yuritishimiz uchun kerakli turli xil informatsiyalrni o'z ichiga oladi.
+                         Odatda, bu konspektlar mantiqiy yo'riqnomalardir, lekin boshqa narsalar ham bo'lishi mumkin.</p>
+                    </div>
+                    <table class="table table-striped table-hover table-bordered">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Konspekt</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- Handouts are inserted here by resources.js -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="readings">
+                  <div class="table-responsive panel panel-default">
+                    <div class="panel-heading">O'qish uchun</div>
+                    <div class="panel-body">
+                      <p>Bu ixtiyoriy o'quv materiallari kurs davomida yangilanib boradi va kursga qo'shimcha material sifatida ishlatiladi.
+                        Hozircha shu materiallar, yana yangilab boraman.
+                      </div>
+                    <table class="table table-striped table-hover table-bordered">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>O'qish</th>
+                          <th>Credit</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- Readings are inserted here by resources.js -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Resources Tab -->
+
+          <!-- Course Info Tab -->
+          <div role="tabpanel" class="tab-pane fade" id="info">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="well lead">
+                Python Kursi- Python boshlangich dasturlashdan professional Web sayt tuzishgacha. 
+                </div>
+
+                <h4>Asosiy Linklar</h4>
+                <p class="lead">
+                  <!-- TODO: Fix this janky spacing hack -->
+                  <strong class="small"><a href="https://docs.google.com/document/d/1M9fYiDCZXz2F2SefNf-A6P3jfHiIQkVD4pdF0c8Am9A/edit?usp=sharing" return true;" target="_blank">Kurs Haqida</a></strong>
+
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                  <strong class="small"><a href="https://docs.google.com/document/d/1cKYe4OeUElYBlsfW_nd7P5-62C--AmdwWPQPAkUoeRk/edit?usp=sharing"  return true;" target="_blank">Dars jadvali</a></strong>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                  
+                </p>
+
+                <h4>Asosiy Info</h4>
+
+                <dl class="dl-horizontal lead">
+                  
+                  <dt>kuni / vaqti</dt>
+                  <dd>Dushanba/Chorshanba/Juma  6:30 ~ 8:30</dd>
+
+                  
+
+                  <dt>instructor</dt>
+                  <dd>Muhriddin (ismoilovmuh1996@gmail.com)</dd>
+
+                  
+
+                  
+              </dl>
+              <!--<h4>Office Hours</h4>
+              <dl class="dl-horizontal lead">
+                <dt>sam's</dt>
+                <dd>by appointment</dd>
+               
+                <dt>david's</dt>
+                <dd>tbd</dd>
+
+                <dt>matt's</dt>
+                <dd>tbd</dd>
+
+                <dt>brexton's</dt>
+                <dd>tbd</dd>
+                
+              </dl>-->
+            </div>
+          </div>
+        </div>
+        <!-- End Course Info Tab -->
+      </div>
+      <!-- End Tab Panes -->
+    </div>
+  </li>
+  <!-- Splash Page to Application -->
+  <li class="splash page">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="title"><b class="text-primary">FullPython</b> hap<span class="text-primary">py</span> code</h1>
+        <h4 class="subtitle">the <span class="text-primary">python</span> dasturlash tili</h4>
+        <h3>
+          <a href="#info" class="btn btn-primary btn-lg text-muted" id="learn-more">
+            <strong>ko'proq</strong>
+          </a>
+          
+        </h3>
+      </div>
+    </div>
+  </li>
+</ul>
+
+<!-- Scripts placed at the bottom of the page for faster loading -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+
+<!-- <script type="text/javascript" src="js/gtag_helper.js"></script> -->
+<script type="text/javascript" src="js/resources.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
