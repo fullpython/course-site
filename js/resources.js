@@ -275,7 +275,7 @@ function create_week_heading_tr(week) {
 }
 
 // Actually fetch all the resources
-var RESOURCES_DIR = 'https://fullpython.github.io/course-site/res'
+var RESOURCES_DIR = 'http://fullpython.uz/course-site/res'
 
 $.when(
   // Before we can do anything, make sure we have the proper data!
