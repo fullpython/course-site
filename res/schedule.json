@@ -8,19 +8,19 @@
 				"title": "Welcome to Python",
 				"date": "2019-04-01",
 				"active": false,
-				"description": "Hello world! Welcome to CS41. Topics covered: why take CS41, history and context of Python, zen and philosophy of Python, who uses Python, and lots of Python fundamentals (using the interpreter, comments, variables, types, numbers, math, booleans, logic, strings, lists, slicing, console I/O, control flow, loops, range, functions)"
+				"description": ""
 			},
 			{
 				"title": "Python Fundamentals",
 				"date": "2019-04-03",
 				"active": false,
-				"description": "Our rapid progression through Python fundamentals continues, covering: objects, variables, and types, duck typing, equality vs. identity testing, additional useful string methods, string formatting (using .format()), file I/O (using a context manager), running Python as a script, the basics of imports, and virutal environments. The remainder of class is used to set up (and troubleshoot) Python installations, as well as start work on Lab 1."
+				"description": ""
 			},
 			{
 				"title": "Python Fundamentals",
 				"date": "2019-04-05",
 				"active": true,
-				"description": "Our rapid progression through Python fundamentals continues, covering: objects, variables, and types, duck typing, equality vs. identity testing, additional useful string methods, string formatting (using .format()), file I/O (using a context manager), running Python as a script, the basics of imports, and virutal environments. The remainder of class is used to set up (and troubleshoot) Python installations, as well as start work on Lab 1."
+				"description": ""
 			}
 			
 		],
