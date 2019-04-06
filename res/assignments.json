@@ -8,9 +8,17 @@
 		"due": "2019-04-08 6:30:00",
 		"visible": true,
 		"active": false
+	},
+	{
+		"num": 1,
+		"title": "Welcome to Python 0",
+		"spec":"https://docs.google.com/document/d/1JnpcbzZln89HsbEU_tdd9zMROvc_UJgzrpS9EZDFBJE/edit?usp=sharing",
+		"starter_code": "#",
+		"released": "2019-04-06",
+		"due": "2019-04-08 6:30:00",
+		"visible": true,
+		"active": true
 	}
-
-
 	
 ]
 
