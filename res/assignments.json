@@ -17,6 +17,16 @@
 		"released": "2019-04-06",
 		"due": "2019-04-08 6:30:00",
 		"visible": true,
+		"active": false
+	},
+	{
+		"num": 1,
+		"title": "Lists and Dictionary",
+		"spec":"https://github.com/fullpython/python-assignments/tree/master/assign2",
+		"starter_code": "#",
+		"released": "2019-04-11",
+		"due": "2019-04-15 6:30:00",
+		"visible": true,
 		"active": true
 	}
 	
