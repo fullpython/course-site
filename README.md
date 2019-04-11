@@ -1,3 +1,4 @@
+
 ## FullPython Course Website 
 
 FullPython Python kursi uchun vebsayt.
@@ -38,4 +39,3 @@ fullpython.github.io/
 #### `res/`
 
 The resources folder is possibly the most important folder.
-
