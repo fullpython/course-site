@@ -2,9 +2,9 @@
 	{
 		"week": 1,
 		"topic": "Warming Up",
-		"href": "",
+		"href": "https://github.com/fullpython/python-labs/blob/master/notebooks/lab1-warmup-notebook.ipynb",
 		"solutions": "",
-		"visible": false,
+		"visible": true,
 		"active": true
 	}
 ]
