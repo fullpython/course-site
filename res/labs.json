@@ -5,12 +5,20 @@
 		"href": "https://github.com/fullpython/python-labs/blob/master/notebooks/lab1-warmup-notebook.ipynb",
 		"solutions": "",
 		"visible": true,
-		"active": true
+		"active": false
 	},
 	{
 		"week": 2,
 		"topic": "Data Structures",
 		"href": "https://github.com/fullpython/python-labs/blob/master/notebooks/lab2-datastructures-notebook.ipynb",
+		"solutions": "",
+		"visible": true,
+		"active": false
+	},
+	{
+		"week": 3,
+		"topic": "Functions",
+		"href": "https://github.com/fullpython/python-labs/blob/master/notebooks/lab3-functions-notebook.ipynb",
 		"solutions": "",
 		"visible": true,
 		"active": true
